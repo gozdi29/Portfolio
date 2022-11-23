@@ -1,0 +1,7 @@
+,exact_match,f1
+electra_epochs_1_aqa,38.466667,50.145535
+electra_epochs_1_squad,69.063387,82.799602
+electra_epochs_2_aqa,42.9,53.924034
+electra_epochs_2_squad,71.144749,84.541577
+electra_epochs_3_aqa,43.666666666666664,55.54666688699794
+electra_epochs_3_squad,71.16367076631977,84.79601861545844
