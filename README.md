@@ -33,13 +33,13 @@ Below I'll describe each project in a few sentences.
     of modern Transformers based models. I tracked my experiments with Weights&Biases. 
     
 5. Summarization of short messenger like conversations:
-
-    Summarization is also an NLP task and I used the same liblaries as for NER project. My goal wasn't to train a perfect production ready model but to show that I'm capable of training a model for such a task.
+  
+    Summarization is also an NLP task and I used the same libraries as for the NER project. My goal wasn't to train a perfect production ready model but to show that I'm capable of training a model for such a task.
+    
     
 6. Question Answering:
 
-    Question answering is another NLP task. I trained models to perform Extractive Question Answering which means that given a passage and question regarding that passage a part of passage is returned as an answer. I used the same libraries as for NER and Summarization projects. Difference between this project and 2 previous ones is that I used TensorFlow for training instead of Transformer's Trainer.
-
+    Question Answering is another NLP task. I trained models to perform Extractive Question Answering, which means that given a passage and question regarding that passage, a part of the passage is returned as an answer. I used the same libraries as for NER and Summarization projects. The difference between this project and the two previous ones is that I used TensorFlow for training instead of Transformer's Trainer.
 
 
 
