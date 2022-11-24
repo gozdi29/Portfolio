@@ -38,7 +38,7 @@ Below I'll describe each project in a few sentences.
     
 6. Question Answering:
 
-    Question answering is another NLP task. I trained models to perform Extractive Question Answering which means that given a passage and question regarding that passage a part of passage is returned as an answer. I used the same libraries as for NER and Summarization projects.
+    Question answering is another NLP task. I trained models to perform Extractive Question Answering which means that given a passage and question regarding that passage a part of passage is returned as an answer. I used the same libraries as for NER and Summarization projects. Difference between this project and 2 previous ones is that I used TensorFlow for training instead of Transformer's Trainer.
 
 
 
