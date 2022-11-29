@@ -9,4 +9,4 @@ I trained various machine learning algorithms and compared them with each other.
 
 To find optimal paremeters for each algorithm I used GridSearch with 5 fold cross-valitation. To avoid data leakage scaler (if necessary) and imputer are packed together with a classifier using Pipeline, all objects inside of this pipeline are refitted every validation fold with available data. 
 
-Main goal of this project was to present my knowledge and abilites necessary for training Machine Learning algorithms
+Main goal of this project was to present my knowledge and necessary abilites for training Machine Learning algorithms to do binary classification.
