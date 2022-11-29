@@ -7,4 +7,4 @@ I chose a model that's performance was outstanding compared to models of similar
 
 I used Samsum dataset which is a collection of messenger like conversations and their rather short summaries written by linguists fluent in English.
 
-
+Main goal of this project was to show my ability of fine-tuning a Transformers Encoder-Decoder model for text generation task such as summarization or translation.
