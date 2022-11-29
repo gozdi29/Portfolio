@@ -12,3 +12,5 @@ After data exploration and cleaning I trained Linear Regression and XGBRegressor
 accurately predicting for houses with price over 1.4m so I decided to drop these rows.
 
 Finally I trained different types of models and chose the best one using RMSE. I tried to find optimal parameters for each of the models with 5 fold cross-validation GridSearch.
+
+Main goal of this project was to demonstrate knowledge of all the necessary steps and insights for performing regression with ML algorithms.
