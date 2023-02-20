@@ -1,10 +1,5 @@
 Welcome!
 
-In this project I fine-tuned different pretrained Transformers-based models to do Extractive Question Answering, which means 
-that given a passage and question regarding that passage, a part of the passage is returned as an answer.
+In this project I fine-tuned different Transformer based models on AdversarialQA dataset to do extractive question answering, which means that given a passage and question regarding that passage, a part of the passage is returned as an answer. AdversarialQA dataset was construced using 3 models fine-tuned on SQuAD dataset, these models were DiBAF, BERT and RoBERTa. Humans were paid to come up with questions regarding SQuAD passages and if trained model wasn't abel to answer them correctly they were added to the dataset. I fine-tuned couple of different models on this dataset and later I fine-tuned the one with the best performance on AdversarialQA and SQuAD. Fine-tuning on these 2 datasets improved performance on AdversarialQA. This was one of my first NLP projects and at that time I didn't know how great Weights&Biases is so I didn't use it for experiment tracking. I was tracking models metrics using Pandas dataframes which now doesn't seems like a good idea.
 
-My goal for this project was to show my knowledge of different architectures available in Transformers library and my ability of fine-tuning them to do Question Answering.
-
-I used AdversarialQA dataset for training and validation. Each model was validated after each epoch of training with ROUGE metrics. 
-Architecture that achieved the best results was trained on AdversarialQA and SQuAD 1.1 using hyperparameters from it's best training run on only AdversarialAQ.
-Additional training data improved results on AdversarialQA.
+Inference API is avaliable here https://huggingface.co/Gozdi/Electra-base-squad-adversarialqa-epoch-3
