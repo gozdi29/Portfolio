@@ -16,7 +16,7 @@ Below I'll describe each project in a few sentences.
     
     After a while I wanted to learn Spark and I came across Databricks. Using the same dataset I remade this project using PySpark for data manipulation, Spark's MLLIb for model training, Hyperopt for hyperparameter search and MLFlow for experiment tracking and model registery.
     
-    I have also made a simple app for inference using FastAPI and Dockerized it for deployment. I was planning to deploy it on Heroku thats why it is in a separate repository https://github.com/gozdi29/Heart_disease_prediction. I'm currently looking for a free alternative to Heroku which is no longer free to deploy the app.
+    I have also made a simple app for inference using FastAPI and Dockerized it for deployment. I was planning to deploy it on Heroku that's why it is in a separate repository https://github.com/gozdi29/Heart_disease_prediction. I'm currently looking for a free alternative to Heroku which is no longer free to deploy the app.
     
     
 2. Forecasting average daily temperature in Delhi:
