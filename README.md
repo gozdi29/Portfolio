@@ -10,6 +10,7 @@ Below I'll describe each project in a few sentences.
 
    
 1. Heart disease prediction:
+    
     In this project I predict whenether a patient has heart disease based on their medical information. 
     Initially I made this project on Google Colab where I used cuML and XGBoost for model training, Pandas and NumPy for data manipulations. I searched for optimal hyperparameters using GridSearchCV. 
     
