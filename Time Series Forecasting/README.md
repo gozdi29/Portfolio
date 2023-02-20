@@ -1,7 +1,3 @@
 Welcome!
 
-In this project I forecast average daily temperature in Delhi 30 days into the future. For predicting I'm using NeuralProphet
-a powerful tool for explainable times series forecasting. I explore usefulness of particular NeuralProphet components, such as trend and lagged observations regression,
-for prediction accuracy.
-
-Main goal of this project was to show my familiarity of NeuralProphet and Time Series Forecasting nuances.
+My goal for this project was to produce a 30 day forecast of average temperature so it's a time series forecasting task and it's located in a folder named Time Series Forecasting. In this project I used NumPy and Pandas for data manipulation and NeuralProphet for forecasting. Some of the functionalities that I wanted to use are built into NeuralProphet but they are done in a way that doesn't suit me. I wrote a wrapper function that extended the built-in functionalies of NeuralProphet, this function does cross-validation and plots forecasts against ground truth data using interactive Plotly plots instead of static matplotlib.
