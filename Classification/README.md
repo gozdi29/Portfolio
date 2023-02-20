@@ -16,8 +16,6 @@ Spark version:
   
   For hyperparameter search I used Hyperopt a Bayesian hyperparameter optimizer. Hyperopt is much more efficient that GridSearch, when I learned how to use it I realised how much time I wasted using GridSearch. 
   
-  For tracking experiments I used MLflow a MLOps framework integrated into databricks.
+  For tracking experiments I used MLflow a MLOps framework integrated into Databricks.
   
   For model training I used Spark's MLLib which in case of such a small dataset is an overkill and actually works slower than SK-learn. I wanted to show my ability to use Spark's MLLib.
-
-Main goal of this project was to present my knowledge and necessary abilites for training Machine Learning algorithms to do binary classification.
