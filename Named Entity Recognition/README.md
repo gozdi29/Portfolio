@@ -1,8 +1,3 @@
 Welcome!
 
-In this project I fine-tuned two Transformers-based models to do Named Entity Recognition. NER is a task that classifies each word as one of several named entities.
-I used Huggingface's Transformers library which offers easy to use implementations of modern Transformers-based models.
-
-I had 2 goals doing this project. First one was to show my ability of using Transformers library for finetuning pre-trained models on NER task. 
-Second one was to compare DeBERTAv3 xSmall results to RoBERTa Base results. In DeBERTAv3 authors say that their xSmall model, which has only 22M backbone parameters, can outperform
-RoBERTA base, which has 86M backbone parameters, on some taska. I wanted to see if DeBERTav3 can also outperform RoBERTa on a dataset I chose.
+Named entity recognition is a task that classifies each word as one of several named entities. Modern NLP world is dominated by Transformer based models which are a specific type of neural network architecture. I used Huggingface's Transformers library that offers pre-trained implementations of state of the art models. Besides showing my ability to fine-tune a model for NER task I wanted to test if DeBERTAv3 xSmall with a backbone of only 22M parameters can outperform RoBERTa base which has 86M backone parameters. I've chosen these specific models because in DeBERTav3 paper autors claim that xSmall variant of their model can outperform RoBERTa base variant on some tasks. I tracked my experiments with Weights&Biases which allowed me to do a comprehensive comparison of metrics they achieved and also their performance during training. Thanks to Huggingface, inference API is avaliable here https://huggingface.co/Gozdi/roberta-base-finetuned-ner
